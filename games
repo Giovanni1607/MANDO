@@ -1,0 +1,38 @@
+/game-website
+│
+├── index.html          <-- Homepage
+├── game1.html          <-- Example game page
+├── styles.css          <-- Styles for the website
+└── /assets             <-- Images or any additional resources
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Game Website!</h1>
+        <nav>
+            <ul>
+                <li><a href="game1.html">Play Game 1</a></li>
+                <!-- Add more game links here as you expand -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Enjoy the Games!</h2>
+            <p>This website is dedicated to simple and fun browser games. Click on a game above to start playing!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by [Your Name]</p>
+    </footer>
+</body>
+</html>
